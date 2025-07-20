@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "basic app to deploy",
+  "homepage": "https://github.com/Basanta-khatri-0311/backend#readme",
+  "bugs": {
+    "url": "https://github.com/Basanta-khatri-0311/backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Basanta-khatri-0311/backend.git"
+  },
+  "license": "ISC",
+  "author": "basanta khatri",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
