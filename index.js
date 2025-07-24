@@ -1,6 +1,3 @@
-
-import dotenv from 'dotenv'
-dotenv.config()
 import express from "express"
 
 const app = express()
@@ -17,14 +14,16 @@ app.get('/twitter', (req, res) => {
 
 app.get('/login', (req, res) => {
     res.send(`<h1>Hi from h1</h1>`)
+})
 
-    
+app.get('/logout', (req, res) => {
+    res.send(`<h1>Hi We just logged out...!!!</h1>`)
 })
 
 app.get('/basantkhatri', (req, res) => {
     res.send('My page')
 })
 
-app.listen(process.env.PORT, () => {
+app.listen(port, () => {
     console.log(`App listening on ${port}`)
 })
